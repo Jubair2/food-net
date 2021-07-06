@@ -1,5 +1,7 @@
 body{
-    font-family: 'Roboto Condensed', sans-serif
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+
 }
 .orange-color{
     color: orange;
@@ -11,6 +13,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
@@ -31,4 +34,10 @@ section p{
     font-weight: 700;
     color: white;
     border-radius: 20px;
+}
+.about-me{
+    background-image: url(images/7.png);
+    padding-top: 5%;
+    background-repeat: no-repeat;
+
 }
