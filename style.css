@@ -11,13 +11,15 @@ body{
     color:black;
     font-size: 55px;
 }
-section{
+.flexible-coontainer{
     display: flex;
     margin-bottom: 100px;
 }
 .half{
     width: 50%;
     padding-left: 5%;
+    
+
 }
 .half img{
     width:80%;
@@ -40,4 +42,19 @@ section p{
     padding-top: 5%;
     background-repeat: no-repeat;
 
+}
+h2{
+    text-align: center;
+    color:blue;
+}
+.recipe-item{
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:30px 40px 60px gray;
+    border-radius: 20px;
+    border: 10px solid white;
+    
 }
